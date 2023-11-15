@@ -11,5 +11,11 @@ int main(int argc, char const *argv[])
     printf("El resultado de la resta es: %d\n", restar(a,b));
     printf("El resultado de la multiplicacion es: %d\n", multiplicar(a,b));
     printf("El resultado de la division es: %d\n", dividir(a,b));
+
     return 0;
+    /*Para compilar debes ingresar en el terminal:
+    
+        gcc -o main .\sources\main.c .\sources\operaciones.c
+            
+    */
 }
